@@ -4,3 +4,9 @@ module zlibLinux [system] {
     link "z"
     export *
 }
+module zlibWindows [system] {
+    header "zlib.h"
+    header "zconf.h"
+    link "zlib"
+    export *
+}

@@ -30,6 +30,8 @@ import struct Foundation.Data
 
 #if os(Linux)
     import zlibLinux
+#elseif os(Windows)
+    import zlibWindows
 #else
     import zlib
 #endif
