@@ -5,8 +5,7 @@ module zlibLinux [system] {
     export *
 }
 module zlibWindows [system] {
-    header "zlib.h"
-    header "zconf.h"
-    link "zlib"
+    header "modulewin.h"
+    link "zlib.lib"
     export *
 }

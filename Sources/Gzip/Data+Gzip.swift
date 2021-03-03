@@ -32,6 +32,8 @@ import struct Foundation.Data
     import zlibLinux
 #elseif os(Windows)
     import zlibWindows
+    typealias uint = UInt32
+    typealias uInt = UInt32
 #else
     import zlib
 #endif
